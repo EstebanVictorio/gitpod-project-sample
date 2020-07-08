@@ -1,0 +1,1 @@
+yarn --cwd ./gp-sample install
