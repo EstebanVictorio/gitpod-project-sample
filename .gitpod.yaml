@@ -1,0 +1,3 @@
+tasks:
+  - init: boot
+    command: cd gp-sample && yarn && yarn start
