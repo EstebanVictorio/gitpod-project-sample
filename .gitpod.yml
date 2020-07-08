@@ -1,4 +1,4 @@
 tasks:
   - before: ./setup.sh
-  - init: yarn start
-    command: yarn --cwd ./gp-sample start --host 0.0.0.0
+  - init: bootstrap
+    command: cd gp-sample && yarn && yarn start --host 0.0.0.0
